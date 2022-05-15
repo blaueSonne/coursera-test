@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mod2_solution</title>
+</head>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	h1{
+		margin: 100px;
+		text-align: center;
+		font-size: 175%;
+	}
+
+		body {
+			background-color: #8BB6E1;
+		}
+		section {
+			position: relative;
+			padding: 15px;
+			width: 100%;
+
+		}
+		p{
+			position: relative;
+			clear: right;
+		}
+		div{
+			position: relative;
+			background-color: white;
+			border: 1px solid black;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: auto;
+		}
+        .t1{
+        	float: right;
+        	width: 100px;
+        	padding: 5px;
+        	margin: 0px;
+        	border: 1px solid black;
+        	text-align: center;
+        	font-size: 125%;
+        	font-weight: bold;
+        	background-color: #0080ff;
+		}
+
+		.t2{
+			float: right;
+        	width: 100px;
+        	padding: 5px;
+        	margin: 0px;
+        	border: 1px solid black;
+        	text-align: center;
+        	font-size: 125%;
+        	font-weight: bold;
+			background-color:#3399ff;
+		}
+		.t3{
+			float: right;
+        	width: 100px;
+        	padding: 5px;
+        	margin: 0px;
+        	border: 1px solid black;
+        	text-align: center;
+        	font-size: 125%;
+        	font-weight: bold;
+			background-color:#9CC6F0;
+		}
+		.content{
+			padding: 5px;
+			border: none;
+			background-color: white;
+			margin: 0px;
+			height: 200px;
+			overflow: auto;
+		}
+		@media(min-width: 992px){
+			section{
+				float: left;
+				width: 33.33%;
+			}
+
+		}
+		@media(min-width: 768px) and (max-width: 991px){
+			.dia{
+				float: left;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.dia2{
+				float: left;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		@media(max-width: 767px){
+			.lit{
+				float: left;
+				width: 100%;
+			}
+		}
+	</style>
+<body>
+	<h1>Teilen des Studiengangs</h1>
+	<section class="lin dia lit">
+		<div>
+<p class="t1">Linguistik</p>
+<p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+</section>
+<section class="lin dia lit">
+	<div>
+<p class="t2">Didaktik</p>
+<p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+</section>
+<section class="lin dia2 lit">
+	<div>
+	<p class="t3">Literatur</p>
+	<p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+</section>
+</body>
+</html>
